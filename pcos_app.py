@@ -4,7 +4,6 @@ import cv2
 import joblib
 from PIL import Image
 from skimage.feature import graycomatrix, graycoprops
-import tensorflow as tf
 from tensorflow.keras.applications.inception_v3 import InceptionV3, preprocess_input
 from tensorflow.keras.preprocessing import image as keras_image
 import tempfile
